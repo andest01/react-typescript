@@ -1,0 +1,149 @@
+// http://chir.ag/projects/name-that-color/
+
+$black: #000;
+$white: #fff;
+
+$cnn: #cf2127;
+
+// Legacy Colors
+
+$background: $white;
+$gray: hsl(0, 0%, 13%);
+$yellow: hsla(48, 97%, 53%, 1);
+$red: hsla(15.6, 100%, 53.1%, 1);
+$off-white: hsla(0, 0%, 73.7%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$blue: hsla(199, 69%, 61%, 1);
+
+// Interface Colors
+
+$haiti: #100f2d;
+$cardinal: $cnn;
+$gallery: #ebebeb;
+$java: #15d9c2;
+$mirage: #1a1f2e;
+$thunder: #4a4a4a;
+
+// Candidates
+// https://app.zeplin.io/project/5a2ecede7a39b7533a67b277/screen/5a2effe9aa0396fc97abd06e
+
+// Blues / Democrats
+$chathams: #14436e;
+$azure: #1180e6;
+$smalt: #003191;
+$dodger: #3398ff;
+$science: #0467cf;
+$spindle: #b2cbe4;
+$cornflower: #8dbae9;
+
+// Reds / Republicans
+$alizarin: #e31919;
+$thunderbird: #d82411;
+$burgundy: #690906;
+$carnation: #fa6767;
+$cinnabar: #e83333;
+$geraldine: #fc8484;
+$sweet: #fea4a4;
+
+// Yellows / Independents
+$indochine: #cb7400;
+$chelsea: #a85f00;
+$zest: #df8d25;
+$buckthorn: #f89d28;
+$koromiko: #ffbe6b;
+$macaroni: #ffc06f;
+$frangipani: #ffdeb4;
+
+// Greens / Libertarian
+$viridian: #51917d;
+$glenfiddich: #5c8b75;
+$sinbard: #a4d4c9;
+
+// Violet / Utah Independent
+$persian: #5b1378;
+$heart: #7c16c5;
+$gum: #4e1258;
+
+// Maps
+// https://app.zeplin.io/project/5a2ecede7a39b7533a67b277/screen/5a2effe99c8cea90c15b87c2
+
+$denim: #1655d0;
+$malibu: #64c9fc;
+$flamingo: #f44040;
+$abbey: #ffa5a5;
+$pizazz: #ff9600;
+$marigold: #fad57b;
+// $viridian
+$neptune: #87c6b2;
+// $persian
+$amethyst: #a355c3;
+$alto: #d8d8d8;
+$tundora: #494949;
+$waterloo: #7a8092;
+$oxford: #3b4258;
+$ocean: #131b48;
+$astronaut: #253270;
+
+// Tellustrator Colors
+
+$lima: #7ed321;
+$supernova: #fc0;
+// $white;
+// $black
+
+// All the colors exported for JS
+// Ordered alphabetically
+
+/* stylelint-disable property-no-unknown */
+
+// :export {
+//   abbey: $abbey;
+//   alizarin: $alizarin;
+//   alto: $alto;
+//   amethyst: $amethyst;
+//   astronaut: $astronaut;
+//   azure: $azure;
+//   black: $black;
+//   buckthorn: $buckthorn;
+//   burgundy: $burgundy;
+//   carnation: $carnation;
+//   chathams: $chathams;
+//   chelsea: $chelsea;
+//   cinnabar: $cinnabar;
+//   cornflower: $cornflower;
+//   denim: $denim;
+//   dodger: $dodger;
+//   flamingo: $flamingo;
+//   frangipani: $frangipani;
+//   geraldine: $geraldine;
+//   glenfiddich: $glenfiddich;
+//   gum: $gum;
+//   haiti: $haiti;
+//   heart: $heart;
+//   indochine: $indochine;
+//   lima: $lima;
+//   koromiko: $koromiko;
+//   macaroni: $macaroni;
+//   malibu: $malibu;
+//   marigold: $marigold;
+//   neptune: $neptune;
+//   ocean: $ocean;
+//   oxford: $oxford;
+//   persian: $persian;
+//   pizazz: $pizazz;
+//   science: $science;
+//   sinbard: $sinbard;
+//   smalt: $smalt;
+//   supernova: $supernova;
+//   spindle: $spindle;
+//   sweet: $sweet;
+//   thunderbird: $thunderbird;
+//   thunder: $thunder;
+//   tundora: $tundora;
+//   viridian: $viridian;
+//   waterloo: $waterloo;
+//   white: $white;
+//   zest: $zest;
+// }
+
+/* stylelint-enable property-no-unknown */

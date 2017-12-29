@@ -1,0 +1,9 @@
+@import "src/styles/colors";
+
+.container {
+    background-color: $red;
+}
+
+.stuff {
+    composes: container;
+}
