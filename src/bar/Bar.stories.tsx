@@ -1,13 +1,14 @@
 import { action } from '@storybook/addon-actions'
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
-import { SomethingDumb } from './Bar.component'
+import { ISomethingDumbProps, SomethingDumb } from './Bar.component'
 
 const stories = storiesOf('Commons', module)
 stories.add('default button', () => {
-  const settings = {
-    twentyTwoTitleYes: '?',
+  const settings: ISomethingDumbProps = {
+    hahaNobodyCaresMoby: '?',
     callback: () => {action('hello')},
+    className: 'hahaha'
   }
 
   return (
