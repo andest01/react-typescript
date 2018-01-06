@@ -23,6 +23,7 @@ describe('UsMap.selectors', () => {
     // act
     // selectors.getComplexObject(reduxState)
     // assert
+    debugger
     expect(reduxState).toBe(1)
   })
 })

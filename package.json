@@ -66,6 +66,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
+    "test:ci": "CI=true node scripts/test.js --env=jsdom --forceExit",
+    "test:inspect": "node --inspect-brk=58585 scripts/test.js --runInBand",
     "lint": "node_modules/.bin/tslint  --project tsconfig.json \"src/**/*.{ts,tsx}\"",
     "lint:fix": "node_modules/.bin/tslint --project tsconfig.json \"src/**/*.{ts,tsx}\" --fix --format codeFrame",
     "storybook": "start-storybook -p 6006",
@@ -89,7 +91,6 @@
       "<rootDir>/config/polyfills.js"
     ],
     "testMatch": [
-      "<rootDir>/src/**/__tests__/**/*.ts?(x)",
       "<rootDir>/src/**/?(*.)(spec|test).ts?(x)"
     ],
     "testEnvironment": "node",

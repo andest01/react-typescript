@@ -12,7 +12,7 @@ export class SomethingDumb extends React.Component<IPropertyButton> {
   public render(): JSX.Element | { } {
     const settings = this.props
     const className = styles.stuff
-
+    console.log('hello')
     return (
       <button className={className} type="button" onClick={this.onClickHandler}>
         <img src={bar} />
